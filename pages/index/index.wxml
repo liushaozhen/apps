@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+  <view>
+  <image src='https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2193817474,2808384516&fm=173&app=25&f=JPG?w=218&h=146&s=FF80CB004A43AC1DDEA100E003007002'>
+  </image>
+  </view>
+  <view class="usermotto">
+     <text class="user-motto">{{motto}}</text> 
+    <!-- <map longitude="117.67" latitude="36.19"></map> -->
+  </view>
+</view>
